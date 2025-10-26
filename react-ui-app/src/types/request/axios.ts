@@ -1,6 +1,6 @@
 import type {AxiosResponseHeaders, InternalAxiosRequestConfig, RawAxiosResponseHeaders} from "axios";
 
-declare interface ResponseData<T> {
+declare interface ResponseData<T = {} | any[] | undefined | null | number> {
     readonly code: number;
     readonly msg?: string;
     readonly data: T,

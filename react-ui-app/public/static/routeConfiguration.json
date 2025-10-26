@@ -1,0 +1,27 @@
+{
+  "code": 0,
+  "msg": "success",
+  "data": {
+    "routes": [
+      {
+        "path": "sys",
+        "children": [
+          {
+            "path": "login",
+            "component": "/system/auth/Login",
+            "meta": {
+              "requiresAuth": true
+            }
+          }
+        ]
+      },
+      {
+        "path": "test/01",
+        "component": "system/test/Test01",
+        "meta": {
+          "requiresAuth": true
+        }
+      }
+    ]
+  }
+}

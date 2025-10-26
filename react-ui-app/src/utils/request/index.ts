@@ -1,5 +1,6 @@
 import axiosStatic, {type AxiosInstance, type AxiosRequestConfig} from 'axios'
 import {type AxiosResponseData} from '#/request/axios.ts'
+import {SUCCESS_CODE} from '@/shared/constant/systemConstant'
 
 
 /* 减少对这个axios的直接使用,使用封装的request函数 */
@@ -30,7 +31,7 @@ export async function request<T>(config: AxiosRequestConfig): Promise<AxiosRespo
                 msg: response!.data.msg,
                 data: response.data!.data as T,
                 isSuccess(): boolean {
-                    return this.code === 200;
+                    return this.code === SUCCESS_CODE;
                 }
             }
             resolve(resp)
