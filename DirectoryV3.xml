@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trees>
+    <tree path="/react-ui-app/src/shared" title="通用代码"/>
+    <tree path="/react-ui-app/src/shared/components" title="通用组件"/>
+    <tree path="/react-ui-app/src/store/index.tsx" title="redux配置"/>
+    <tree path="/react-ui-app/src/hooks" title="自定义hook" extension="" presentableText="" tooltipTitle="" icon=""
+          textColor="" backgroundColor=""/>
+    <tree path="/react-ui-app/src/App.tsx" title="根组件"/>
+    <tree path="/react-ui-app/src/utils" title="通用的工具函数"/>
+    <tree path="/react-ui-app/src/apis" title="接口调用"/>
+    <tree path="/react-ui-app/src/store" title="redux"/>
+    <tree path="/react-ui-app/src/router" title="路由"/>
+    <tree path="/react-ui-app/src/routes/index.tsx" title="路由配置"/>
+    <tree path="/react-ui-app/src/types" title="ts类型声明"/>
+    <tree path="/react-ui-app/src/features" title="功能模块"/>
+    <tree path="/react-ui-app/src/features/system" title="系统模块"/>
+    <tree path="/react-ui-app/src/features/system/auth" title="认证模块"/>
+    <tree path="/react-ui-app/src/Home.tsx" title="首页"/>
+</trees>
